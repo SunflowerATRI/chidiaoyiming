@@ -465,10 +465,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
+        if (cps <= 3) return '基泥苔煤';
+        if (cps <= 6) return '阿明觉得海星';
+        if (cps <= 7)  return '阿明觉得很行';
+        if (cps <= 8) return '阿鸣觉得很很行';
         return '人？';
     }
 
